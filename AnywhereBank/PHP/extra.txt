@@ -1,0 +1,23 @@
+if((!$fname) || (!$lname) || (!$accountNum) || (!$phone) || (!$email) || (!$pass) || (!$birthdate))
+		{
+			$error = "Please fill in all fields";
+			
+			return false;
+		}
+		
+		
+		if(strlen($accountNum) < 16)
+		{
+			$error = "Account number must be 16 digits";
+			
+			return false;
+		}
+		
+		if(!filter_var($email,FILTER_VALIDATE_EMAIL))
+		{
+			$error = "Enter vaild email address";
+			
+			return false;
+		}
+		
+		

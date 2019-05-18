@@ -1,0 +1,82 @@
+/*
+ * Make room for login button
+ */
+#login-btn {
+  padding-top: 20px;
+}
+/*
+ * Make buttons like, "Forgot Password", smaller
+ */
+.secondary-button {
+  font-size: 75%;
+}
+
+/*
+ * Set background image and form background color
+ */
+body {
+  background-image: url("../Img/sky-oilfied-opacity-50.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #eee;
+}
+
+/*
+ * Form styles
+ */
+*[role="form"] {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
+
+/*
+ * Make login window narrower
+ */
+.login {
+  max-width: 350px;
+}
+
+/*
+ * Pad left and right side of login form elements
+ */
+.login-element {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+ * Make the footer align to the bottom.
+ */
+.anb-footer {
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/*
+ * Style for the About Us text container
+ */
+.about-us-container {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.3em;
+  text-align: center;
+}
+
+/*
+ * Error style for invisible divs
+ */ 
+ .error {
+  color: #D63301;
+  background-color: #FFCCBA;
+ }
